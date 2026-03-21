@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mini Library - eBooks</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom right, #f9c2ff, #ffe4e1);
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #ff6f91;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+
+  nav a {
+    margin: 0 15px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+  nav a:hover {
+    color: #ffd700;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 30px 0;
+    color: #ff4d6d;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .cell {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .cell:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+  }
+
+  .cell h3 {
+    margin-bottom: 10px;
+    color: #ff4d6d;
+  }
+
+  .cell p {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+  }
+
+  .cell a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff6f91;
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+  .cell a:hover {
+    background-color: #ff4d6d;
+  }
+
+  footer {
+    background-color: #ff6f91;
+    text-align: center;
+    color: #fff;
+    padding: 15px 0;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h2>📚 MINI LIBRARY</h2>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="ebooks.html">eBooks</a>
+    <a href="about.html">About</a>
+    <a href="login.html">Login</a>
+  </nav>
+</header>
+
+<h1>📕 eBooks Collection</h1>
+
+<div class="grid">
+  <div class="cell">
+    <h3>C Programming</h3>
+    <p>Programming</p>
+    <a href="https://ebook4freesite.files.wordpress.com/2016/11/beginning_programming_with_c_for_dummies1.pdf" target="_blank">Read</a>
+  </div>
+  <div class="cell">
+    <h3>HTML Guide</h3>
+    <p>Web Dev</p>
+    <a href="https://www.webdesign.org/downloads/Beginners_Guide_to_HTML.pdf" target="_blank">Read</a>
+  </div>
+  <div class="cell">
+    <h3>Python Basics</h3>
+    <p>Programming</p>
+    <a href="https://bugs.python.org/file47781/Tutorial_EDIT.pdf" target="_blank">Read</a>
+  </div>
+  <div class="cell">
+    <h3>Linux for Beginners</h3>
+    <p>Operating System</p>
+    <a href="https://www.usm.uni-muenchen.de/people/puls/lessons/intro_general/Linux/Linux_for_beginners.pdf" target="_blank">Read</a>
+  </div>
+  <div class="cell">
+    <h3>Database Management</h3>
+    <p>Database</p>
+    <a href="https://media.geeksforgeeks.org/courses/syllabus/5723a07ce6db1b2e7fe33b5db5f0d606.pdf" target="_blank">Read</a>
+  </div>
+</div>
+
+<footer>
+  &copy; 2026 Mini Library | All rights reserved
+</footer>
+
+</body>
+</html>
